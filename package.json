@@ -1,0 +1,44 @@
+{
+  "name": "Insane Penguins",
+  "version": "1.0.0",
+  "description": "Desktop client for InsanePenguins - Created by AltoDev.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "build-mac": "electron-builder build --mac --publish never",
+    "appveyor-build": "electron-builder build --win --publish onTagOrDraft"
+  },
+  "bugs": {
+<<<<<<< HEAD
+    "url": "https://github.com/WaddlePenguins/waddlepenguins_app/issues"
+  },
+  "homepage": "https://github.com/WaddlePenguins/waddlepenguins_app#readme",
+  "repository": "https://github.com/WaddlePenguins/waddlepenguins_app",
+=======
+    "url": "https://github.com/cozy-penguin/client/issues"
+  },
+  "homepage": "https://github.com/cozy-penguin/client#readme",
+  "repository": "https://github.com/cozy-penguin/client",
+>>>>>>> parent of 176b50a (Added all files.)
+  "author": "Thx AltoDev for code",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.1.2",
+    "electron-builder": "^22.2.0",
+    "electron-is-dev": "^1.1.0"
+  },
+  "dependencies": {
+    "discord-rpc": "^3.1.0",
+    "electron-is-dev": "^1.1.0",
+    "electron-updater": "^4.2.0"
+  },
+  "build": {
+    "appId": "com.ippscpps.desktop",
+    "productName": "Insane Penguins Desktop",
+    "asar": "false",
+    "win": {
+      "publish": "github"
+    }
+  }
+}
